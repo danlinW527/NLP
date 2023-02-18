@@ -2,8 +2,7 @@
 def next_movie():
     import spacy
 #load md in spacy to perform a higher advanced language model
-    nlp = spacy.load(
-        r'C:\Users\abidh\AppData\Local\Programs\Python\Python311\Lib\site-packages\en_core_web_md\en_core_web_md-3.5.0')
+    nlp = spacy.load('en_core_web_md')
     hulk = 'Planet Hulk: Will he save their world or destroy it? When the Hulk becomes too dangerous for teh Earth, the illuminati trick Hulk into a shuttle and launch him into space to a planet where the Hulk can live in peace. Unfortunately, Hulk land on the planet Sakaar where he is solde into slavery and trained as a gladiator.'
     hulk_nlp = nlp(hulk)
 #create an empty description list
