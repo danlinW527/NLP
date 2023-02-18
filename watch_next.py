@@ -25,6 +25,6 @@ def next_movie():
                 max_similarity = similarity
 
                 max_movie = dskpn[0]
-        print(f'The movie with the highest similarity is {max_movie}')
+        print(f'You may like {max_movie}')
 
 next_movie()
